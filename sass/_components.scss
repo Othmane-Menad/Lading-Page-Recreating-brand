@@ -1,0 +1,44 @@
+// Variables
+$blue-overlay: #16697a;
+$green-color: #51baa4;
+
+.main-heading {
+  font-weight: 700;
+  font-size: 4.5rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 10rem;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.btn-large {
+  padding: 1.7rem 2.2rem;
+}
+
+.btn-blue {
+  background-color: $green-color;
+
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.btn-white {
+  background-color: #fff;
+  border: 2px solid $green-color;
+  color: $green-color;
+  padding: 1rem 4rem;
+}
